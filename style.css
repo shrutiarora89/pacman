@@ -1,0 +1,71 @@
+body{
+			background-color: black;
+			margin:0px;
+		}
+
+		/*div's of each Row*/
+		div.row div {
+			width:32px;
+			height:32px;
+			display:inline-block;
+		}
+		div.brick{
+			background-color:brown;
+		}
+		div.empty{
+			background-color:black;
+		}
+		div.coin{
+			background: url("http://vignette2.wikia.nocookie.net/stabyourself/images/2/20/Coin.gif/revision/latest?cb=20150107151427");
+		}
+		div#pacman{
+			background: url("http://media.tumblr.com/179501c5f9a8ca0a0cf12be8720ad105/tumblr_inline_mhzqtbYVdp1roozkr.gif");
+			width:32px;
+			height:32px;	
+		}
+		div#player2{
+			background: url("http://media.tumblr.com/179501c5f9a8ca0a0cf12be8720ad105/tumblr_inline_mhzqtbYVdp1roozkr.gif");
+			width:32px;
+			height:32px;
+			transform: scaleX(-1);	
+		}
+        
+		div.cherry{
+			background: url("http://orig07.deviantart.net/745d/f/2012/340/f/6/tiny_cherry_icon_by_koffeelam-d5n9w2t.gif");
+			width:30px;
+			height:30px; 
+		}
+
+		div#ghost{
+			background:url('http://petercheung2010.googlecode.com/svn/trunk/pacman/images/ghost_south.gif');
+			width:30px;
+			height:30px;
+		}
+		
+
+		div#score{
+			position:absolute;
+			top:15px;
+			left:710px;
+			border:2px solid white;
+			padding:10px;
+			width:25px;
+			height:25px;
+			text-align: center;
+			color:white;
+			font-size:20px;
+		}
+
+		div#player2score{
+			position:absolute;
+			top:15px;
+			left:810px;
+			border:2px solid white;
+			padding:10px;
+			width:25px;
+			height:25px;
+			text-align: center;
+			color:white;
+			font-size:20px;
+		}
+      
