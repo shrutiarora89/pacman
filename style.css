@@ -21,27 +21,27 @@ body{
 		div#pacman{
 			background: url("http://media.tumblr.com/179501c5f9a8ca0a0cf12be8720ad105/tumblr_inline_mhzqtbYVdp1roozkr.gif");
 			width:32px;
-			height:32px;	
+			height:32px;
 		}
 		div#player2{
 			background: url("http://media.tumblr.com/179501c5f9a8ca0a0cf12be8720ad105/tumblr_inline_mhzqtbYVdp1roozkr.gif");
 			width:32px;
 			height:32px;
-			transform: scaleX(-1);	
+			transform: scaleX(-1);
 		}
-        
+
 		div.cherry{
 			background: url("http://orig07.deviantart.net/745d/f/2012/340/f/6/tiny_cherry_icon_by_koffeelam-d5n9w2t.gif");
 			width:30px;
-			height:30px; 
+			height:30px;
 		}
 
 		div#ghost{
-			background:url('http://petercheung2010.googlecode.com/svn/trunk/pacman/images/ghost_south.gif');
+			background:url('http://orig05.deviantart.net/287e/f/2015/242/c/f/clyde_gif_by_therealdaviseti-d97qenz.gif');
 			width:30px;
 			height:30px;
 		}
-		
+
 
 		div#score{
 			position:absolute;
@@ -68,4 +68,3 @@ body{
 			color:white;
 			font-size:20px;
 		}
-      
